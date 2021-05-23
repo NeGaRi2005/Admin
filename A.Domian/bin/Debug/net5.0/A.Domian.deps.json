@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "A.Domian/1.0.0": {
+        "dependencies": {
+          "A.Application.actions": "1.0.0"
+        },
+        "runtime": {
+          "A.Domian.dll": {}
+        }
+      },
+      "A.Application.actions/1.0.0": {
+        "runtime": {
+          "A.Application.actions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "A.Domian/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "A.Application.actions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

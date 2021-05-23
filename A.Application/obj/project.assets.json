@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "A.Application.actions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/A.Application.actions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Application.actions.dll": {}
+        }
+      },
+      "A.Domian/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "A.Application.actions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/A.Domian.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Domian.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "A.Application.actions/1.0.0": {
+      "type": "project",
+      "path": "../A.Application.actions/A.Application.actions.csproj",
+      "msbuildProject": "../A.Application.actions/A.Application.actions.csproj"
+    },
+    "A.Domian/1.0.0": {
+      "type": "project",
+      "path": "../A.Domian/A.Domian.csproj",
+      "msbuildProject": "../A.Domian/A.Domian.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "A.Application.actions >= 1.0.0",
+      "A.Domian >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Webs\\EFCore_Admin\\A.Application\\A.Application.csproj",
+      "projectName": "A.Application",
+      "projectPath": "D:\\Webs\\EFCore_Admin\\A.Application\\A.Application.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "D:\\Webs\\EFCore_Admin\\A.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\Webs\\EFCore_Admin\\A.Application.actions\\A.Application.actions.csproj": {
+              "projectPath": "D:\\Webs\\EFCore_Admin\\A.Application.actions\\A.Application.actions.csproj"
+            },
+            "D:\\Webs\\EFCore_Admin\\A.Domian\\A.Domian.csproj": {
+              "projectPath": "D:\\Webs\\EFCore_Admin\\A.Domian\\A.Domian.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

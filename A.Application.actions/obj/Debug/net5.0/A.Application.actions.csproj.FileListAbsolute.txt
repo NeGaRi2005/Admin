@@ -1,0 +1,12 @@
+D:\Webs\EFCore_Admin\A.Application.actions\bin\Debug\net5.0\A.Application.actions.deps.json
+D:\Webs\EFCore_Admin\A.Application.actions\bin\Debug\net5.0\A.Application.actions.dll
+D:\Webs\EFCore_Admin\A.Application.actions\bin\Debug\net5.0\ref\A.Application.actions.dll
+D:\Webs\EFCore_Admin\A.Application.actions\bin\Debug\net5.0\A.Application.actions.pdb
+D:\Webs\EFCore_Admin\A.Application.actions\obj\Debug\net5.0\A.Application.actions.csprojAssemblyReference.cache
+D:\Webs\EFCore_Admin\A.Application.actions\obj\Debug\net5.0\A.Application.actions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Webs\EFCore_Admin\A.Application.actions\obj\Debug\net5.0\A.Application.actions.AssemblyInfoInputs.cache
+D:\Webs\EFCore_Admin\A.Application.actions\obj\Debug\net5.0\A.Application.actions.AssemblyInfo.cs
+D:\Webs\EFCore_Admin\A.Application.actions\obj\Debug\net5.0\A.Application.actions.csproj.CoreCompileInputs.cache
+D:\Webs\EFCore_Admin\A.Application.actions\obj\Debug\net5.0\A.Application.actions.dll
+D:\Webs\EFCore_Admin\A.Application.actions\obj\Debug\net5.0\ref\A.Application.actions.dll
+D:\Webs\EFCore_Admin\A.Application.actions\obj\Debug\net5.0\A.Application.actions.pdb

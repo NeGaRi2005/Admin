@@ -1,0 +1,15 @@
+D:\Webs\EFCore_Admin\A.Domian\bin\Debug\net5.0\A.Domian.deps.json
+D:\Webs\EFCore_Admin\A.Domian\bin\Debug\net5.0\A.Domian.dll
+D:\Webs\EFCore_Admin\A.Domian\bin\Debug\net5.0\ref\A.Domian.dll
+D:\Webs\EFCore_Admin\A.Domian\bin\Debug\net5.0\A.Domian.pdb
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\A.Domian.csprojAssemblyReference.cache
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\A.Domian.GeneratedMSBuildEditorConfig.editorconfig
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\A.Domian.AssemblyInfoInputs.cache
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\A.Domian.AssemblyInfo.cs
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\A.Domian.csproj.CoreCompileInputs.cache
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\A.Domian.dll
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\ref\A.Domian.dll
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\A.Domian.pdb
+D:\Webs\EFCore_Admin\A.Domian\bin\Debug\net5.0\A.Application.actions.dll
+D:\Webs\EFCore_Admin\A.Domian\bin\Debug\net5.0\A.Application.actions.pdb
+D:\Webs\EFCore_Admin\A.Domian\obj\Debug\net5.0\A.Domian.csproj.CopyComplete

@@ -1,0 +1,63 @@
+﻿@page
+@model ProductCategorysModel
+@{
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="float-left">ProductCategory List</h3>
+        <div class="float-right">
+            <a class="btn btn-success" asp-page="./Create" >Add New</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Status</th>
+                    <th>CreationDate</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var productcategoty in Model.productCategories)
+                {
+                    <tr>
+                        <td>@productcategoty.Id</td>
+                        <td>@productcategoty.Name</td>
+                        <td>
+                            @if (productcategoty.IsStock)
+                            {
+                                <i class="fa fa-close fa-2x text-danger"></i>
+                            }
+                            else
+                            {
+                                <i class="fa fa-check fa-2x text-success"></i>
+                            }
+                        </td>
+                        <td>@productcategoty.Time</td>
+                        <td>
+                            <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@productcategoty.Id">Rename</a>
+                            @if (productcategoty.IsStock)
+                            {
+                                <form method="post" asp-page-handler="Activate" class="float-left">
+                                    <button class="btn btn-success">Activate</button>
+                                    <input type="hidden" name="id" value="@productcategoty.Id" />
+                                </form>
+                            }
+                            else
+                            {
+                                <form method="post" asp-page-handler="Remove" class="float-left">
+                                    <button class="btn btn-danger">Remove</button>
+                                    <input type="hidden" name="id" value="@productcategoty.Id" />
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
